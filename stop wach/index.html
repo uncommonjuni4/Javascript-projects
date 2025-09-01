@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="juni-stop"><span id="element"></span></div>
+    <div class="stopwatch" id="stopwatch">
+        
+        <div class="display-timer"  id="display-timer" >
+            00:00:00
+                </div>
+                
+    </div>
+     
+    <div class="btn"    id="btn">
+                <button class="btn1" id="btn1" >Stop</button>
+                <button  class="btn2"  id="btn2">Start</button>
+                <button class="btn3" id="btn3" >Reset</button>
+                </div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['welcome to Juni,Stopwatch'],
+      typeSpeed: 80,
+    });
+  </script>
+                <script src="script.js""></script>
+</body>
+</html>

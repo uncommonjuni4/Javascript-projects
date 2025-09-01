@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+.main-part{
+    width: 600px;
+    height: 740px;
+    margin-left: 450px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(image/back2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.main-panel{
+    width: 500px;
+    height: 670px;
+    background-color: transparent;
+}
+.main-heading{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 400px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 12px;
+    color: white;
+}
+.main-heading h1:hover{
+    color: yellow;
+}
+.main-center{
+    width: 440px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+    align-items: center;
+    background-image: url(image/back4.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(13, 255, 0);
+   
+}
+#demo{
+    border: 2px solid rgb(163, 241, 19);
+    width: 300px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: yellow;
+    font-size: 20px;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(255, 217, 0);
+    background-color: black;
+    color: white;
+}
+
+.btn-line-1{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.btn-1{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-2{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-3{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-4{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+
+.btn-line-2{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.btn-5{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+
+}
+.btn-6{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-7{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-8{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+
+/* btn-line-3*/
+
+.btn-line-3{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.btn-9{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-10{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-11{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-12{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+
+/*btn-line- start*/
+
+
+.btn-line-4{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.btn-13{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-14{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-15{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+.btn-16{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(120, 125, 120);
+    color: white;
+    border: 2px solid rgb(61, 59, 59);
+    font-size: 20px;
+}
+/*btn-17*/
+.btn-17{
+    width: 200px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition-property: inherit;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.btn-17:hover{
+    background-color: yellow;
+}

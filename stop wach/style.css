@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+
+
+
+#element{
+    color: yellow;
+    font-size: 30px;
+}
+
+.juni-stop{
+    margin-block: 12px;
+}
+
+.stopwatch{
+    border: 2px solid black;
+    padding: 22px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(33, 32, 32, 0.636);
+    border-radius: 12px;
+        box-shadow: 0 0 15px wheat;
+}
+
+.display-timer{
+     /* border: 2px solid green;  */
+    font-size: 45px;
+    font-weight: 700;
+    box-shadow: 0 0 4px wheat;
+    outline: none;
+    border-radius: 12px;
+
+}
+
+.btn{
+    margin-block: 22px;
+    /* border: 2px solid red; */
+    width:345px;
+    justify-content: space-evenly;
+    display: flex;
+     height: 60px;
+
+
+}
+
+.btn button{
+    width: 100px;
+    border-radius: 12px;
+    /* border: 2px solid red; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.btn .btn1{
+    background-color: red;
+    font-weight: 500;
+    font-size:20px;
+    color: wheat;
+    
+}
+.btn .btn2{
+    background-color: greenyellow;
+    font-weight: 600;
+    font-size:20px;
+   
+}
+
+
+
+
+.btn .btn3{
+    background-color: yellow;
+    font-size:20px;
+    color: red;
+     font-weight: 600;
+}
+
+
+
+
+
+
+

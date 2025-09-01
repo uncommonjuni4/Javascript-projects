@@ -1,0 +1,84 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom,rgb(26, 255, 205),rgb(255, 221, 0));
+    color: white;
+}
+
+
+.container{
+    border: 1px solid white;
+    border-radius: 12px;
+    background-color: transparent;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 5px 0px 3px gray , 1px 4px 15px 4px rgb(5, 50, 255);
+
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.PasswordBox{
+    width: 300px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: white;
+    margin-block: 8px;
+    font-size: 20px;
+
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p , .row2 label{
+    flex-basis: 100%;
+    font: size 20px;;
+}
+
+.row2{
+    display: flex;
+    border: none;
+    margin-block: 6px;
+}
+
+.row2 input[type ="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+
+.btn-1{
+    border: none;
+    outline: none;
+    background-color: rgba(3, 3, 147, 0.659);
+    color: white;
+    padding: 16px;
+    border-radius: 6px;
+    margin-block: 8px;
+    font-size: 17px;
+}
+
+.btn-1:hover{
+    background-color: blue;
+} 
+

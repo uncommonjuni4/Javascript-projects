@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2 style="text-align: center;">Landind or Flanding an car</h2>
+    <div style="justify-content: center;display: flex;">
+        <button id="land" style="width: 120px;height: 40px;border-radius: 30px;cursor: pointer;background-color: chartreuse;">Land </button>
+        <button id="takeoff" style="width: 120px;height: 40px;border-radius: 30px;cursor: pointer;background-color: rgb(244, 255, 234);">Take off</button>
+    </div>
+    <div class="btn" style="display: flex;justify-content: center;margin-top: 30%;">
+           <button >
+            <img src="OIP.webp" width="150px"  height="80px" alt="">
+           </button>
+ </div>
+    <script>
+        let land = document.querySelector("#land");
+        let takeoff =document.querySelector("#takeoff");
+        let btn = document.querySelector(".btn");
+       takeoff.addEventListener("click",function(){
+        btn.style.margin = "30px"
+       })
+       land.addEventListener("click",function(){
+        btn.style.margin = "30%"
+       })
+      
+    
+        
+    </script>
+</body>
+</html>

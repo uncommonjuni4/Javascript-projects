@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warper{
+       display: flex;
+       justify-content: center;
+           flex-direction: column;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <div class="warper">
+        <h1 style="background-color: black ;color: white;">Number Guessing Game</h1>
+        <p>Try and Guess a random number between 1 and 100</p>
+        <p>You have 10 attempts to Guess the right number</p>
+        <br>
+        <form class="form">
+            <label for="guessfield"  id="guess">Guess a Number</label><br>
+            <input type="text" name="" id="guessField" class="guessfield" style="    width: 200px;height: 39px; background-color: black ;border-radius: 17px;color: yellow;margin-top: 12px;"><br>
+            <input type="submit"  value="submit guess" id="submit" class="guesssubmit" style="background-color: gray ;color: white;    width: 188px;height: 41px; margin-top: 12px;border-radius: 22px;margin-left: 14px;"><br>
+        </form>
+        <div class="resultparas">
+            <p>Previous Guessing: <span class="guesses"></span></p>
+            <p>Guessing Remaining: <span class="lastresult">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+
+
+
+    <script src="scritpt2.js"></script>
+</body>
+</html>

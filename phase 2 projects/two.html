@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project phase two</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button  id="stop">stop</button>
+    <button  id="start">start</button>
+
+
+    <script>
+    const juni = function(){
+        console.log('JUNI');
+        
+    }
+
+   document.querySelector("#start").addEventListener("click",function(){
+   const set = setInterval(juni,2000)
+   })
+
+const stop =document.querySelector("#stop");
+stop.addEventListener("click",function(){
+    clearInterval(set)
+    
+})
+  
+    </script>
+</body>
+</html>

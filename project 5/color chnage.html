@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project phase two</title>
+</head>
+<body>
+    <h1>color changer</h1>
+    <button  id="stop">stop</button>
+    <button  id="start">start</button>
+
+
+    <script>
+  const randomcolor = function(){
+    const hex = "0123456789ABCDEF";
+    let color = "#";
+    for(i= 0; i< 6; i++){
+        color += hex[Math.floor(Math.random()*16)];
+    }
+    
+    return color;
+  }
+   console.log(randomcolor());
+
+   document.querySelector("#start").addEventListener("click",function(){
+ interval = setInterval(function(){
+document.body.style.background =randomcolor()
+    },1000)
+   })
+
+//    document.querySelector("#stop").addEventListener("click",function(){
+//     clearInterval(interval);
+//    })
+
+document.getElementById("stop").addEventListener("click", function () {
+  clearInterval(interval);
+});
+
+//   const randomcolor = function () {
+//   const hex = "0123456789ABCDEF";
+//   let color = "#"; // Use 'let' instead of 'const' so we can modify it
+//   for (let i = 0; i < 6; i++) {
+//     color += hex[Math.floor(Math.random() * 16)];
+//   }
+//   console.log(color); // Move this before return if you want to see the output
+//   return color;
+// };
+    </script>
+</body>
+</html>

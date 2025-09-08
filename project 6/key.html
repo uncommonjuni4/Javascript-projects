@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 6</title>
+</head>
+<body>
+    <div id="main" style="display: flex; justify-content: center;align-items: center; margin: 150px;">
+      
+      <button type="button" style="width: 150px; height: 30px;  border-radius: 20px; cursor: pointer;">press key</button>
+      
+    </div>
+
+    <script>
+   const main = document.getElementById("main");
+window.addEventListener("keydown", function(e) {
+    main.innerHTML= `
+      <table border="1" cellpadding="10" style="text-align: center;">
+        <tr>
+          <th>Key</th>
+          <th>Key Code</th>
+          <th>Code</th>
+        </tr>
+        <tr>
+          <td>${e.key === ' ' ?  'Space' : e.key}</td>
+          <td>${e.keyCode}</td>
+          <td>${e.code}</td>
+        </tr>
+      </table>
+    `;
+  });
+
+
+
+    </script>
+</body>
+</html>

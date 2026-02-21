@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juni Cricket API</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Anim.html">
+
+  <style>
+  /* ADD THIS TO YOUR STYLE TAG */
+  body {
+    background: #0f2027; /* Fallback color */
+    overflow-x: hidden;
+  }
+
+  /* The Animated Background Layer */
+  body::before, body::after {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    z-index: -1; 
+    filter: blur(100px);
+    opacity: 0.5;
+    animation: move 20s infinite alternate ease-in-out;
+  }
+
+  body::before {
+    background: #00ff88; 
+    margin-top: -400px;
+    margin-left: -500px;
+  }
+
+  body::after {
+    background: #2c5364; 
+    margin-top: 100px;
+    margin-left: 100px;
+    animation-duration: 25s;
+    animation-delay: -5s;
+  }
+
+  @keyframes move {
+    0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+    50% { transform: translate(200px, 100px) scale(1.2) rotate(90deg); }
+    100% { transform: translate(-100px, 300px) scale(0.8) rotate(180deg); }
+  }
+
+  .info-box, .modal-content {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+    
+  .profile-frame {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, #00ff88, #66CDAA);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+  }
+
+  #dev-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1a2a33;
+  }
+
+  #alert-time {
+    color: #00ff88;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: pulse-glow 2s infinite;
+  }
+
+  @keyframes pulse-glow {
+    0% { text-shadow: 0 0 5px rgba(0, 255, 136, 0.2); opacity: 0.8; }
+    50% { text-shadow: 0 0 15px rgba(0, 255, 136, 0.6); opacity: 1; }
+    100% { text-shadow: 0 0 5px rgba(0, 255, 136, 0.2); opacity: 0.8; }
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    visibility: hidden; 
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  .modal-active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .modal-content {
+    background: #1a2a33;
+    padding: 40px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 85%;
+    transform: scale(0.8);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .modal-active .modal-content {
+    transform: scale(1);
+  }
+
+  .modal-close-btn{
+    background: linear-gradient(135deg, #00ff88, #66CDAA);
+    color: #002e1a;
+    font-weight: 800;
+    padding: 16px 35px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* NEW BACK BUTTON STYLE */
+  .back-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 255, 136, 0.5);
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-transform: uppercase;
+  }
+  .back-btn:hover {
+    background: rgba(0, 255, 136, 0.2);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+  }
+  </style> 
+</head>
+<body>
+
+<div id="welcome-modal" class="modal-overlay">
+  <div class="modal-content">
+    <div class="profile-frame">
+      <img src="image/483522230_1075513444615173_6973866850166462215_n.jpg" alt="Developer" id="dev-photo">
+    </div>
+    <h2>Welcome to Uncommon_Juni Cricket App</h2>
+    <p id="alert-time"></p>
+    <p>Created by Juni. Get ready to analyze the stats of your favorite cricket legends.</p>
+    <button onclick="closeModal()" class="modal-close-btn">Let's Play</button>
+  </div>
+</div>
+
+  <div class="top">
+    <h1>Welcome to Juni Cricket API App</h1><br>
+    <h1 style="font-size: 16px;color:rgb(255, 230, 0)">
+      Only Search some player status. Click on to see Players Name
+    </h1>
+    <br>
+    <button class="player-btn" onclick="alert('1: Baber Azam  2: Virat Kholi  3: Rohit Sharma')">
+      Players Data
+    </button>
+    <br>
+    <button class="back-btn" onclick="history.back()">⬅ Back to Arena</button>
+  </div>
+
+  <div class="bottom">
+    <div class="center">
+      <h1>Player Status</h1>
+    </div>
+
+    <div class="info-box">
+      <label style="color: #ff3c35; font-weight: bold;">Please Give Player Name:</label><br><br>
+      <input type="text" id="input" placeholder="Enter Player Name">
+      <button id="search">Search</button>
+
+      <h2 id="NamePly"></h2>
+ 
+      <div class="formats-container">
+        <div class="format-box" id="t20-box">
+          <h3>T20</h3>
+          <p><strong>Debut:</strong> <span class="t20-debut"></span></p>
+          <p><strong>Matches:</strong> <span class="t20-matches"></span></p>
+          <p><strong>Runs:</strong> <span class="t20-runs"></span></p>
+          <p><strong>Average:</strong> <span class="t20-average"></span></p>
+          <p><strong>Highest Score:</strong> <span class="t20-highest"></span></p>
+          <p><strong>Strike Rate:</strong> <span class="t20-sr"></span></p>
+          <p><strong>Last Played:</strong> <span class="t20-last"></span></p>
+        </div>
+
+        <div class="format-box" id="odi-box">
+          <h3>ODI</h3>
+          <p><strong>Debut:</strong> <span class="odi-debut"></span></p>
+          <p><strong>Matches:</strong> <span class="odi-matches"></span></p>
+          <p><strong>Runs:</strong> <span class="odi-runs"></span></p>
+          <p><strong>Average:</strong> <span class="odi-average"></span></p>
+          <p><strong>Highest Score:</strong> <span class="odi-highest"></span></p>
+          <p><strong>Strike Rate:</strong> <span class="odi-sr"></span></p>
+          <p><strong>Last Played:</strong> <span class="odi-last"></span></p>
+        </div>
+
+        <div class="format-box" id="test-box">
+          <h3>Test</h3>
+          <p><strong>Debut:</strong> <span class="test-debut"></span></p>
+          <p><strong>Matches:</strong> <span class="test-matches"></span></p>
+          <p><strong>Runs:</strong> <span class="test-runs"></span></p>
+          <p><strong>Average:</strong> <span class="test-average"></span></p>
+          <p><strong>Highest Score:</strong> <span class="test-highest"></span></p>
+          <p><strong>Strike Rate:</strong> <span class="test-sr"></span></p>
+          <p><strong>Last Played:</strong> <span class="test-last"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Modal Functions
+    window.onload = function() {
+        document.getElementById('welcome-modal').classList.add('modal-active');
+        // Optional: Set time
+        const now = new Date();
+        document.getElementById('alert-time').innerText = now.toLocaleTimeString();
+    }
+
+    function closeModal() {
+        document.getElementById('welcome-modal').classList.remove('modal-active');
+    }
+  </script>
+  <script src="script.js"></script>
+
+</body>
+</html>

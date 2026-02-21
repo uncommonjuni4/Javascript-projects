@@ -1,0 +1,564 @@
+{
+  "players": [
+    {
+      "name": "Baber Azam",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Zimbabwe, 2016-06-18",
+          "lastPlayed": "vs New Zealand, 2025-01-10",
+          "matches": 95,
+          "runs": 3400,
+          "average": 45.2,
+          "strikeRate": 132.5,
+          "highestScore": 122
+        },
+        {
+          "format": "ODI",
+          "debut": "vs West Indies, 2015-09-14",
+          "lastPlayed": "vs England, 2025-03-05",
+          "matches": 110,
+          "runs": 4600,
+          "average": 52.7,
+          "strikeRate": 88.3,
+          "highestScore": 125
+        },
+        {
+          "format": "Test",
+          "debut": "vs Australia, 2016-10-13",
+          "lastPlayed": "vs South Africa, 2025-02-11",
+          "matches": 50,
+          "runs": 4600,
+          "average": 48.2,
+          "strikeRate": 55.4,
+          "highestScore": 203
+        }
+      ]
+    },
+    {
+      "name": "Virat Kohli",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs England, 2008-08-12",
+          "lastPlayed": "vs Australia, 2025-01-12",
+          "matches": 115,
+          "runs": 3900,
+          "average": 41.5,
+          "strikeRate": 135.2,
+          "highestScore": 118
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Sri Lanka, 2008-08-18",
+          "lastPlayed": "vs Pakistan, 2025-03-08",
+          "matches": 245,
+          "runs": 12400,
+          "average": 59.2,
+          "strikeRate": 93.7,
+          "highestScore": 183
+        },
+        {
+          "format": "Test",
+          "debut": "vs Sri Lanka, 2010-08-12",
+          "lastPlayed": "vs England, 2025-02-20",
+          "matches": 105,
+          "runs": 8300,
+          "average": 52.4,
+          "strikeRate": 55.3,
+          "highestScore": 254
+        }
+      ]
+    },
+    {
+      "name": "Rohit Sharma",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs South Africa, 2007-10-25",
+          "lastPlayed": "vs England, 2025-01-15",
+          "matches": 120,
+          "runs": 4300,
+          "average": 42.8,
+          "strikeRate": 138.6,
+          "highestScore": 118
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Ireland, 2007-06-23",
+          "lastPlayed": "vs New Zealand, 2025-03-12",
+          "matches": 240,
+          "runs": 9200,
+          "average": 48.5,
+          "strikeRate": 88.4,
+          "highestScore": 264
+        },
+        {
+          "format": "Test",
+          "debut": "vs West Indies, 2013-11-06",
+          "lastPlayed": "vs Australia, 2025-02-25",
+          "matches": 50,
+          "runs": 3500,
+          "average": 45.0,
+          "strikeRate": 55.0,
+          "highestScore": 212
+        }
+      ]
+    },
+    {
+      "name": "Fakhar Zaman",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs England, 2015-05-24",
+          "lastPlayed": "vs India, 2025-01-10",
+          "matches": 70,
+          "runs": 2100,
+          "average": 32.5,
+          "strikeRate": 130.8,
+          "highestScore": 104
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Zimbabwe, 2017-07-20",
+          "lastPlayed": "vs New Zealand, 2025-03-15",
+          "matches": 95,
+          "runs": 3500,
+          "average": 42.0,
+          "strikeRate": 88.5,
+          "highestScore": 132
+        },
+        {
+          "format": "Test",
+          "debut": "vs West Indies, 2019-12-17",
+          "lastPlayed": "vs Australia, 2025-02-20",
+          "matches": 20,
+          "runs": 1200,
+          "average": 35.0,
+          "strikeRate": 55.0,
+          "highestScore": 145
+        }
+      ]
+    },
+    {
+      "name": "Kane Williamson",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Zimbabwe, 2011-10-15",
+          "lastPlayed": "vs Papua New Guinea, 2024-06-17",
+          "matches": 93,
+          "runs": 2575,
+          "average": 33.4,
+          "strikeRate": 123.1,
+          "highestScore": 95
+        },
+        {
+          "format": "ODI",
+          "debut": "vs India, 2010-08-10",
+          "lastPlayed": "vs England, 2025-10-29",
+          "matches": 175,
+          "runs": 7256,
+          "average": 48.7,
+          "strikeRate": 81.6,
+          "highestScore": 148
+        },
+        {
+          "format": "Test",
+          "debut": "vs India, 2010-11-04",
+          "lastPlayed": "vs West Indies, 2025-12-20",
+          "matches": 108,
+          "runs": 9461,
+          "average": 54.7,
+          "strikeRate": 52.0,
+          "highestScore": 251
+        }
+      ]
+    },
+    {
+      "name": "Joe Root",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs India, 2012-12-22",
+          "lastPlayed": "vs Pakistan, 2019-05-05",
+          "matches": 32,
+          "runs": 893,
+          "average": 35.0,
+          "strikeRate": 126.0,
+          "highestScore": 90
+        },
+        {
+          "format": "ODI",
+          "debut": "vs India, 2013-01-11",
+          "lastPlayed": "vs New Zealand, 2025-11-30",
+          "matches": 186,
+          "runs": 7330,
+          "average": 48.0,
+          "strikeRate": 87.0,
+          "highestScore": 166
+        },
+        {
+          "format": "Test",
+          "debut": "vs India, 2012-12-13",
+          "lastPlayed": "vs Australia, 2026-01-04",
+          "matches": 163,
+          "runs": 13943,
+          "average": 51.0,
+          "strikeRate": 57.0,
+          "highestScore": 262
+        }
+      ]
+    },
+    {
+      "name": "Steve Smith",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Pakistan, 2010-02-05",
+          "lastPlayed": "vs New Zealand, 2024-02-25",
+          "matches": 67,
+          "runs": 1094,
+          "average": 24.9,
+          "strikeRate": 125.5,
+          "highestScore": 90
+        },
+        {
+          "format": "ODI",
+          "debut": "vs West Indies, 2010-02-19",
+          "lastPlayed": "vs India, 2025-03-04",
+          "matches": 170,
+          "runs": 5800,
+          "average": 43.3,
+          "strikeRate": 87.0,
+          "highestScore": 164
+        },
+        {
+          "format": "Test",
+          "debut": "vs Pakistan, 2010-07-13",
+          "lastPlayed": "vs England, 2026-01-04",
+          "matches": 123,
+          "runs": 10763,
+          "average": 56.1,
+          "strikeRate": 53.9,
+          "highestScore": 239
+        }
+      ]
+    },
+    {
+      "name": "Aiden Markram",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Sri Lanka, 2019-03-22",
+          "lastPlayed": "vs India, 2025-12-19",
+          "matches": 55,
+          "runs": 1577,
+          "average": 29.2,
+          "strikeRate": 143.9,
+          "highestScore": 70
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Bangladesh, 2017-10-22",
+          "lastPlayed": "vs New Zealand, 2025-03-05",
+          "matches": 72,
+          "runs": 2708,
+          "average": 37.1,
+          "strikeRate": 97.9,
+          "highestScore": 175
+        },
+        {
+          "format": "Test",
+          "debut": "vs Bangladesh, 2017-09-28",
+          "lastPlayed": "vs New Zealand, 2025-12-14",
+          "matches": 45,
+          "runs": 3192,
+          "average": 35.5,
+          "strikeRate": 59.0,
+          "highestScore": 152
+        }
+      ]
+    },
+    {
+      "name": "Marnus Labuschagne",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Pakistan, 2022-04-05",
+          "lastPlayed": "vs Pakistan, 2022-04-05",
+          "matches": 1,
+          "runs": 2,
+          "average": 2.0,
+          "strikeRate": 50.0,
+          "highestScore": 2
+        },
+        {
+          "format": "ODI",
+          "debut": "vs India, 2020-01-14",
+          "lastPlayed": "vs Afghanistan, 2025-02-28",
+          "matches": 66,
+          "runs": 1871,
+          "average": 35.0,
+          "strikeRate": 84.5,
+          "highestScore": 71
+        },
+        {
+          "format": "Test",
+          "debut": "vs Pakistan, 2018-10-07",
+          "lastPlayed": "vs England, 2026-01-04",
+          "matches": 63,
+          "runs": 4694,
+          "average": 45.0,
+          "strikeRate": 53.0,
+          "highestScore": 215
+        }
+      ]
+    },
+    {
+      "name": "Pathum Nissanka",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs West Indies, 2021-03-03",
+          "lastPlayed": "vs Pakistan, 2026-01-11",
+          "matches": 81,
+          "runs": 2357,
+          "average": 31.0,
+          "strikeRate": 126.7,
+          "highestScore": 107
+        },
+        {
+          "format": "ODI",
+          "debut": "vs West Indies, 2021-03-10",
+          "lastPlayed": "vs Pakistan, 2025-11-16",
+          "matches": 74,
+          "runs": 2823,
+          "average": 41.0,
+          "strikeRate": 89.0,
+          "highestScore": 210
+        },
+        {
+          "format": "Test",
+          "debut": "vs West Indies, 2021-03-21",
+          "lastPlayed": "vs Bangladesh, 2025-06-25",
+          "matches": 18,
+          "runs": 1305,
+          "average": 45.0,
+          "strikeRate": 56.8,
+          "highestScore": 187
+        }
+      ]
+    },
+    {
+      "name": "Ibrahim Zadran",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Bangladesh, 2019-09-14",
+          "lastPlayed": "vs Zimbabwe, 2025-11-02",
+          "matches": 58,
+          "runs": 1558,
+          "average": 31.0,
+          "strikeRate": 110.9,
+          "highestScore": 72
+        },
+        {
+          "format": "ODI",
+          "debut": "vs West Indies, 2019-11-11",
+          "lastPlayed": "vs Bangladesh, 2025-10-14",
+          "matches": 39,
+          "runs": 1869,
+          "average": 52.0,
+          "strikeRate": 82.4,
+          "highestScore": 177
+        },
+        {
+          "format": "Test",
+          "debut": "vs Bangladesh, 2019-09-05",
+          "lastPlayed": "vs Zimbabwe, 2025-10-15",
+          "matches": 8,
+          "runs": 602,
+          "average": 38.0,
+          "strikeRate": 48.8,
+          "highestScore": 114
+        }
+      ]
+    },
+    {
+      "name": "Shai Hope",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs New Zealand, 2017-12-29",
+          "lastPlayed": "vs New Zealand, 2025-11-13",
+          "matches": 58,
+          "runs": 1403,
+          "average": 29.2,
+          "strikeRate": 132.5,
+          "highestScore": 102
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Sri Lanka, 2016-11-16",
+          "lastPlayed": "vs New Zealand, 2025-11-22",
+          "matches": 148,
+          "runs": 6113,
+          "average": 50.5,
+          "strikeRate": 78.4,
+          "highestScore": 170
+        },
+        {
+          "format": "Test",
+          "debut": "vs England, 2015-05-01",
+          "lastPlayed": "vs New Zealand, 2025-12-02",
+          "matches": 46,
+          "runs": 2260,
+          "average": 26.6,
+          "strikeRate": 45.2,
+          "highestScore": 147
+        }
+      ]
+    },
+    {
+      "name": "Mohammad Rizwan",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs Bangladesh, 2015-04-24",
+          "lastPlayed": "vs Australia, 2025-11-20",
+          "matches": 102,
+          "runs": 3450,
+          "average": 48.2,
+          "strikeRate": 129.5,
+          "highestScore": 104
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Bangladesh, 2015-04-17",
+          "lastPlayed": "vs South Africa, 2025-12-05",
+          "matches": 82,
+          "runs": 2600,
+          "average": 40.5,
+          "strikeRate": 89.4,
+          "highestScore": 131
+        },
+        {
+          "format": "Test",
+          "debut": "vs New Zealand, 2016-11-25",
+          "lastPlayed": "vs England, 2025-10-15",
+          "matches": 35,
+          "runs": 2100,
+          "average": 41.2,
+          "strikeRate": 52.8,
+          "highestScore": 171
+        }
+      ]
+    },
+    {
+      "name": "Daryl Mitchell",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs India, 2019-02-06",
+          "lastPlayed": "vs Australia, 2025-10-12",
+          "matches": 68,
+          "runs": 1350,
+          "average": 26.5,
+          "strikeRate": 138.2,
+          "highestScore": 72
+        },
+        {
+          "format": "ODI",
+          "debut": "vs Bangladesh, 2021-03-20",
+          "lastPlayed": "vs India, 2026-01-05",
+          "matches": 55,
+          "runs": 2100,
+          "average": 49.5,
+          "strikeRate": 94.8,
+          "highestScore": 134
+        },
+        {
+      "name": "David Warner",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs South Africa, 2009-01-11",
+          "lastPlayed": "vs India, 2024-06-24",
+          "matches": 110,
+          "runs": 3277,
+          "average": 33.4,
+          "strikeRate": 142.5,
+          "highestScore": 100
+        },
+        {
+          "format": "ODI",
+          "debut": "vs England, 2009-02-01",
+          "lastPlayed": "vs Pakistan, 2025-03-10",
+          "matches": 170,
+          "runs": 6400,
+          "average": 46.3,
+          "strikeRate": 90.1,
+          "highestScore": 179
+        },
+        {
+          "format": "Test",
+          "debut": "vs India, 2009-12-01",
+          "lastPlayed": "vs New Zealand, 2025-02-15",
+          "matches": 95,
+          "runs": 7400,
+          "average": 45.6,
+          "strikeRate": 55.2,
+          "highestScore": 253
+        }
+      ]
+    },
+    {
+      "name": "Ben Stokes",
+      "career": [
+        {
+          "format": "T20",
+          "debut": "vs South Africa, 2011-07-12",
+          "lastPlayed": "vs India, 2025-01-18",
+          "matches": 88,
+          "runs": 2100,
+          "average": 35.0,
+          "strikeRate": 132.5,
+          "highestScore": 89
+        },
+        {
+          "format": "ODI",
+          "debut": "vs West Indies, 2011-08-22",
+          "lastPlayed": "vs Australia, 2025-03-12",
+          "matches": 120,
+          "runs": 3600,
+          "average": 42.0,
+          "strikeRate": 89.0,
+          "highestScore": 102
+        },
+        {
+          "format": "Test",
+          "debut": "vs India, 2013-08-01",
+          "lastPlayed": "vs South Africa, 2025-02-20",
+          "matches": 95,
+          "runs": 5800,
+          "average": 41.0,
+          "strikeRate": 55.0,
+          "highestScore": 258
+        }
+      ]
+    },
+        {
+          "format": "Test",
+          "debut": "vs England, 2019-11-29",
+          "lastPlayed": "vs Sri Lanka, 2025-11-18",
+          "matches": 28,
+          "runs": 1850,
+          "average": 51.4,
+          "strikeRate": 54.2,
+          "highestScore": 190
+        }
+      ]
+    }
+  ]
+}
